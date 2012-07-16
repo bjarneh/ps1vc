@@ -8,7 +8,7 @@ more. For a fancy version use `__git_ps1` or something similar.
 
 ### Howto ###
 
-Source the file `ps1.bash`, perhaps in some startup script:
+Source the file `ps1.bash` (perhaps in some startup script)
 
     source /path/to/ps1.bash
 
