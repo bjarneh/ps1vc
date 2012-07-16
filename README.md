@@ -46,5 +46,5 @@ return speed*.
     sys     0m0.000s
 
 
-**NOTE** This example was pretty bad as the function `__git_ps1`, is
+**NOTE** This example was pretty bad as the function `__git_ps1` is
 actually pretty fast on my machine, but still :-)
