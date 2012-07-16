@@ -14,7 +14,7 @@ is turned into
     user@host:dir (git) $
 
 if your prompt is below a .git directory,
-`git` would be replaced with `hg` for mercurial and so on.
+**(git)** would be replaced with **(hg)** for mercurial and so on.
 
 
 
