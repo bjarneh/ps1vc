@@ -4,15 +4,16 @@
 
 ### What ###
 
-Adds an green (hg|git|svn|bzr) to your bash prompt if you are inside
+Adds an green **(hg|git|svn|bzr)** to your bash prompt if you are inside
 a directory which is under version control, i.e.
 
-    user@host:dir $
+    user@host:dir$
 
 is turned into
     
     user@host:dir (git) $
 
+if your prompt is below a .git directory,
 `git` would be replaced with `hg` for mercurial and so on.
 
 

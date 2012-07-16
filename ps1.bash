@@ -22,7 +22,7 @@ ANSI_NORMAL="\[\033[0m\]"
 
 function is_svn(){
     if [ -d "${PWD}/.svn" ]; then
-        echo -n "(svn) "
+        echo -n " (svn) "
         return 0
     fi
     return 1
@@ -39,7 +39,7 @@ function is_modern_repo(){
     while [ ! -z "${work_dir}" ];
     do
         if [ -d "${work_dir}/.${repo_type}" ]; then
-            echo -en "(${repo_type}) "
+            echo -en " (${repo_type}) "
             ex_status=0
             break
         fi
@@ -61,4 +61,4 @@ function in_repository {
     return 1
 }
 
-export PS1="\u@\h:\W${ANSI_GREEN} \$(in_repository)${ANSI_NORMAL}\$ "
+export PS1="\u@\h:\W${ANSI_GREEN}\$(in_repository)${ANSI_NORMAL}\$ "
