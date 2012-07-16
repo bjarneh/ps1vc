@@ -39,7 +39,7 @@ return speed*.
     sys     0m0.000s
 
 
-    time is_repo        # the one found in this script
+    time in_repository  # the one found in this script
     (git) 
     real    0m0.001s
     user    0m0.000s

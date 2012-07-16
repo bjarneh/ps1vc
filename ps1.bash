@@ -51,7 +51,7 @@ function is_modern_repo(){
     return "${ex_status}"
 }
 
-function is_repo {
+function in_repository {
 
     is_svn && return 0
     is_modern_repo "git" && return 0
@@ -61,4 +61,4 @@ function is_repo {
     return 1
 }
 
-export PS1="\u@\h:\W${ANSI_GREEN} \$(is_repo)${ANSI_NORMAL}\$ "
+export PS1="\u@\h:\W${ANSI_GREEN} \$(in_repository)${ANSI_NORMAL}\$ "
