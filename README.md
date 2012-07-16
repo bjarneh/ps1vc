@@ -13,8 +13,7 @@ is turned into
     
     user@host:dir (git) $
 
-if you're inside a directory under git version control, `git` is replaced
-with `hg` for mercurial etc.
+`git` would be replaced with `hg` for mercurial and so on.
 
 
 
@@ -33,16 +32,19 @@ I'm on this or that branch etc. for each prompt takes away the *carriage
 return speed*.
 
 
-    time __git_ps1
+    time __git_ps1      # the official PS1 prompt from git
     (master)
     real    0m0.027s
     user    0m0.008s
     sys     0m0.000s
 
 
-    time is_repo
+    time is_repo        # the one found in this script
     (git) 
     real    0m0.001s
     user    0m0.000s
     sys     0m0.000s
 
+
+**NOTE** This example was pretty bad as the function `__git_ps1`, is
+actually pretty fast on my machine, but still :-)
