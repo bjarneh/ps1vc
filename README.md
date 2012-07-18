@@ -1,5 +1,6 @@
-
-    A simple bash prompt that can recognize version control
+    |                                                                 |
+    | A simple bash prompt (PS1) that recognizes VCS (git|hg|svn|bzr) |
+    |                                                                 |
 
 
 ### What ###
