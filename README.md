@@ -1,6 +1,8 @@
-    |                                                                 |
-    | A simple bash prompt (PS1) that recognizes VCS (git|hg|svn|bzr) |
-    |                                                                 |
+    .
+    .                                                               
+    .    A simple bash prompt (PS1) that recognizes VCS (git|hg|svn|bzr)
+    .
+    .
 
 
 ### What ###
