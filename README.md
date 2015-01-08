@@ -35,6 +35,9 @@ version control or not, running all sorts of commands to figure out if
 I'm on this or that branch etc. for each prompt takes away the *carriage
 return speed*.~~
 
+Now that this PS1 script also includes branches when working with git,
+it's becoming even harder to justify the **why** part...
+
 
     time __git_ps1      # the official PS1 prompt from git
     (master)
