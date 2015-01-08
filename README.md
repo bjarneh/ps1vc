@@ -30,10 +30,10 @@ Source the file `ps1.bash` (perhaps in some startup script)
 
 ### Why ###
 
-I'm generally only interested in knowing if I'm working with files under
+~~I'm generally only interested in knowing if I'm working with files under
 version control or not, running all sorts of commands to figure out if
 I'm on this or that branch etc. for each prompt takes away the *carriage
-return speed*.
+return speed*.~~
 
 
     time __git_ps1      # the official PS1 prompt from git
@@ -45,7 +45,7 @@ return speed*.
 
     time in_repository  # the one found in this script
     (git) 
-    real    0m0.001s
+    real    0m0.011s
     user    0m0.000s
     sys     0m0.000s
 
