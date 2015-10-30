@@ -14,7 +14,7 @@ a directory which is under version control, i.e.
 
 is turned into
     
-    user@host:dir (git) $
+    user@host:dir (git:master) $
 
 if your prompt is below a .git directory,
 **(git)** would be replaced with **(hg)** for mercurial and so on.
