@@ -42,7 +42,11 @@ function is_modern_repo(){
             if [ "${repo_type}" = "git" ]; then
                 echo -en " (${repo_type}:$(git branch|grep '*'|sed 's/^* //')) "
             else
-                echo -en " (${repo_type}:$(cat ${work_dir}/.hg/branch)) "
+                if [ -f "${work_dir}/.hg/branch" ]; then
+                    echo -en " (${repo_type}:$(cat ${work_dir}/.hg/branch)) "
+                else
+                    echo -en " (${repo_type}:$(hg branch)) "
+                fi
             fi
             ex_status=0
             break
